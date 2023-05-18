@@ -3,7 +3,7 @@ version: '3.5'
 
 services:
   postgres:
-    container_name: ema-database
+    container_name: weather-database
     image: postgres:latest
     environment:
       POSTGRES_USER: username
